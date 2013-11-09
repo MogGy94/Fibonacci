@@ -17,10 +17,18 @@ public class Fibonacci {
 		System.out.println();
 	}
 	
+	public void showMessage(){
+		
+		System.out.println("HOLA nuevo BRAnch");
+		System.out.println("Nueva aplicacion");
+	}
+	
+	
 	public static void main(String[] args) {
 		
 		Fibonacci a = new Fibonacci();
 		Scanner s = new Scanner(System.in);
+		a.showMessage();
 		System.out.println("ingrese su numero");
 		a.suma(s.nextInt());
 		
